@@ -10,3 +10,9 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Agrupamento de dados com GROUP BY
 - Filtro de grupos com HAVING
 - Exercícios práticos no SQLBolt (lições 4, 5 e 6)
+
+## Dia 4
+- Relacionamento entre tabelas
+- Uso de INNER JOIN
+- Entendimento de chave primária e estrangeira
+- Exercícios práticos no SQLBolt
