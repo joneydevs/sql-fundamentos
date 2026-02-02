@@ -16,3 +16,9 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Uso de INNER JOIN
 - Entendimento de chave primária e estrangeira
 - Exercícios práticos no SQLBolt
+
+## Dia 5
+- Uso de LEFT JOIN
+- Diferença prática entre INNER JOIN e LEFT JOIN
+- Entendimento de registros opcionais e valores NULL
+- Exercícios práticos no SQLBolt
