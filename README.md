@@ -22,3 +22,9 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Diferença prática entre INNER JOIN e LEFT JOIN
 - Entendimento de registros opcionais e valores NULL
 - Exercícios práticos no SQLBolt
+
+## Dia 6
+- Entendimento do conceito de NULL
+- Diferença entre NULL, 0 e string vazia
+- Uso de IS NULL e IS NOT NULL
+- Impacto do NULL em JOINs e agregações
