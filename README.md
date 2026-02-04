@@ -28,3 +28,9 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Diferença entre NULL, 0 e string vazia
 - Uso de IS NULL e IS NOT NULL
 - Impacto do NULL em JOINs e agregações
+
+## Dia 7
+- Subqueries (IN, EXISTS)
+- Uso de EXPRESSIONS em SELECT e WHERE
+- Cálculos, funções e aliases (AS)
+
