@@ -34,3 +34,6 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Uso de EXPRESSIONS em SELECT e WHERE
 - Cálculos, funções e aliases (AS)
 
+## Dia 8
+- Funções de agregação básicas (COUNT, AVG, MAX, SUM)
+- Diferença entre agregação e expressions
