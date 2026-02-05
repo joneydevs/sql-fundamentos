@@ -37,3 +37,9 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 ## Dia 8
 - Funções de agregação básicas (COUNT, AVG, MAX, SUM)
 - Diferença entre agregação e expressions
+
+## Dia 9
+- GROUP BY para agregação por grupo
+- HAVING para filtrar resultados agregados
+- Diferença prática entre WHERE e HAVING
+
