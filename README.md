@@ -43,3 +43,19 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - HAVING para filtrar resultados agregados
 - Diferença prática entre WHERE e HAVING
 
+## Dia 10 – Ordem de execução de uma query SQL
+
+- Ordem real de execução de uma query
+- Diferença entre WHERE e HAVING
+- Uso correto de alias
+- Impacto da ordem na escrita de queries
+- Exercícios realizados no SQLBolt (lição 12)
+-- Ordem real de execução:
+-- 1. FROM / JOIN
+-- 2. WHERE
+-- 3. GROUP BY
+-- 4. HAVING
+-- 5. SELECT
+-- 6. ORDER BY
+-- 7. LIMIT / OFFSET
+
