@@ -59,3 +59,8 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 -- 6. ORDER BY
 -- 7. LIMIT / OFFSET
 
+## Dia 11 - Inserção de Dados
+
+- Inserir dados simples na tabela
+- Inserir dados múltiplos na tabela
+- Uso INSERT INTO e VALUES
