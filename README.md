@@ -72,3 +72,8 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 ## Dia 13
 
 - Como deletar linhas inseridas
+
+## Dia 14
+
+- Criação de tabelas, entendimento da criação de tabela via CREATE TABLE
+- Entendimento de tipo de Dado, PK e constrains associadas as linhas
