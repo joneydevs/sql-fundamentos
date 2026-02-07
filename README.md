@@ -64,3 +64,7 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Inserir dados simples na tabela
 - Inserir dados múltiplos na tabela
 - Uso INSERT INTO e VALUES
+
+##Dia 12 - 
+
+- UPDATE e atualização de registros
