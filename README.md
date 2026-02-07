@@ -68,3 +68,7 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 ##Dia 12 - 
 
 - UPDATE e atualização de registros
+
+## Dia 13
+
+- Como deletar linhas inseridas
