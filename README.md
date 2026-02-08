@@ -77,3 +77,10 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 
 - Criação de tabelas, entendimento da criação de tabela via CREATE TABLE
 - Entendimento de tipo de Dado, PK e constrains associadas as linhas
+
+## Dia 15
+
+- Alterando tabelas já criadas
+	- ADD column (adiciona colunas)
+	- DROP (remove colunas) alguns bancos não suportam essa opção, sendo necessário migrar o banco
+	- RENAME (renomear uma coluna já criada)
