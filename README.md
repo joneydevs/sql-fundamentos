@@ -84,3 +84,22 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 	- ADD column (adiciona colunas)
 	- DROP (remove colunas) alguns bancos não suportam essa opção, sendo necessário migrar o banco
 	- RENAME (renomear uma coluna já criada)
+
+
+## APÓS O DIA 15
+
+- A partir do dia 15 trabalhei na aplicação prática dos conceitos estudados no SQL Bolt, criando um mini projeto com 4 tabelas de vendas
+
+ -- MINI PROJETO CADASTRO DE VENDAS
+
+	- Tabela cliente
+	- Tabela produto
+	- Tabela pedido
+	- Tabela pedido_item
+
+- Novos conceitos foram estudados e inseridos na criação das tabelas
+
+	- Pragma foreing_keys -- Ativa FK no SQLite, que estou usando nessa fase dos estudos
+	- FOREING KEY (coluna_x) REFERENCES tabela(coluna_x) -- Amarra tabela pai com tabela filho via cascade update, restrict ou delete
+	- CREATE INDEX IF NOT EXISTS -- Criação de indices para permitir melhor performance no banco
+

@@ -1,0 +1,5 @@
+# Ignorar arquivos temporários do nano
+*.swp
+
+# Ignorar bancos SQLite
+*.db
