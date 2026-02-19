@@ -103,3 +103,29 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 	- FOREING KEY (coluna_x) REFERENCES tabela(coluna_x) -- Amarra tabela pai com tabela filho via cascade update, restrict ou delete
 	- CREATE INDEX IF NOT EXISTS -- Criação de indices para permitir melhor performance no banco
 
+## Atualizações do dia 19/02/2026
+
+### Estrutura e organização
+- Separei os arquivos de INSERT por tabela, facilitando testes e manutenção.
+- Renomeei arquivos SQL para melhor organização e clareza.
+- Atualizei o README com instruções mais detalhadas.
+- Configurei o `.gitignore` para evitar versionamento de arquivos desnecessários (.db, arquivos temporários, etc).
+
+### Banco de dados
+- Criei as tabelas `cliente`, `produto`, `pedido` e `pedido_item` com:
+  - Primary Keys
+  - Foreign Keys
+  - Constraints (NOT NULL, UNIQUE, CHECK)
+  - Regras de integridade referencial (ON UPDATE / ON DELETE)
+  - Índices para otimização de consultas
+
+- Inserção de dados realizada de forma controlada:
+  - Inserts separados por tabela
+  - Uso de `INSERT ... SELECT` com `UNION ALL`
+  - Validação de chaves estrangeiras
+  - Correção de conflitos de UNIQUE e FOREIGN KEY
+
+### Testes realizados
+- Verificação de integridade referencial
+- Conferência de dados com `SELECT` e `COUNT`
+- Ajuste de formatação no terminal (`.mode box` / `.headers on`)
