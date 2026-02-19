@@ -12,4 +12,6 @@ VALUES
 ('Helena', 'helena@gmail.com'),
 ('Isabela', 'isabela@gmail.com'),
 ('Marina', 'marina@gmail.com'),
-('Daniel', 'daniel@gmail.com');
+('Daniel', 'daniel@gmail.com'),
+('Ana', 'ana@gmail.com'),
+('Álvaro', 'alvaro@gmail.com');
