@@ -129,3 +129,41 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 - Verificação de integridade referencial
 - Conferência de dados com `SELECT` e `COUNT`
 - Ajuste de formatação no terminal (`.mode box` / `.headers on`)
+
+
+## Atualizações de 28/02 – Consultas analíticas no mini-projeto com novos exercícios
+
+Após a criação das tabelas e inserção de dados no mini projeto de vendas, iniciei a construção de consultas SQL mais complexas para análise dos dados.
+
+Os exercícios foram desenvolvidos diretamente sobre as tabelas:
+
+- cliente
+- produto
+- pedido
+- pedido_item
+
+### Conceitos praticados
+
+- JOIN entre múltiplas tabelas relacionadas
+- Cálculo de valores derivados utilizando expressões SQL
+- Funções de agregação (`SUM`, `COUNT`, `AVG`)
+- Agrupamento de dados com `GROUP BY`
+- Filtragem de agregações com `HAVING`
+- Uso de `DISTINCT` para evitar contagens duplicadas
+- Uso de subqueries para comparação com médias e totais do sistema
+- Construção de relatórios analíticos simples
+
+### Exercícios desenvolvidos
+
+Foram implementadas consultas para:
+
+- cálculo de faturamento por status de pedido
+- identificação de pedidos sem itens
+- cálculo de ticket médio por cliente
+- análise de faturamento por cliente e por produto
+- ranking de clientes por faturamento
+- identificação de clientes com pedidos pagos e cancelados
+- comparação de resultados com médias gerais do sistema
+- identificação de produtos vendidos em todos os pedidos
+
+Esses exercícios ajudaram a consolidar a compreensão de como o SQL executa consultas envolvendo múltiplas tabelas, agregações e subconsultas.
