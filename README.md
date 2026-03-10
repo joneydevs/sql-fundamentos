@@ -86,7 +86,7 @@ Objetivo: consolidar SQL com entregáveis semanais, usando SQL para back-end ori
 	- RENAME (renomear uma coluna já criada)
 
 
-## APÓS O DIA 15
+## MINI-PROJETO 1
 
 - A partir do dia 15 trabalhei na aplicação prática dos conceitos estudados no SQL Bolt, criando um mini projeto com 4 tabelas de vendas
 
@@ -167,3 +167,56 @@ Foram implementadas consultas para:
 - identificação de produtos vendidos em todos os pedidos
 
 Esses exercícios ajudaram a consolidar a compreensão de como o SQL executa consultas envolvendo múltiplas tabelas, agregações e subconsultas.
+
+
+## MINI-PROJETO 2
+
+## Evolução do Projeto – Mini Projeto 2 (PostgreSQL)
+
+Após a consolidação do primeiro mini-projeto utilizando SQLite, iniciei um segundo projeto com o objetivo de repetir o processo completo de modelagem e desenvolvimento utilizando **PostgreSQL**, aproximando o ambiente de estudo de um cenário mais utilizado em aplicações backend.
+
+### Objetivo
+
+Reaplicar os conceitos já estudados em SQL utilizando um banco de dados mais robusto, focando em:
+
+- modelagem relacional
+- criação de tabelas com constraints
+- integridade referencial
+- criação de índices
+- construção de consultas que poderiam ser utilizadas por uma API
+
+### Tema do projeto
+
+Sistema de **Agendamento de Consultas**.
+
+### Entidades modeladas
+
+- `paciente`
+- `profissional`
+- `consulta`
+
+### Regras de negócio consideradas
+
+- Uma consulta sempre pertence a um paciente e a um profissional.
+- O status da consulta pode ser apenas:
+  - `MARCADA`
+  - `CANCELADA`
+  - `REALIZADA`
+- Não pode existir duas consultas para o mesmo profissional no mesmo horário.
+- A data e hora da consulta são obrigatórias.
+- A integridade entre paciente, profissional e consulta é garantida por **foreign keys**.
+
+### Conceitos aplicados no PostgreSQL
+
+- uso de `GENERATED ALWAYS AS IDENTITY` para chaves primárias
+- uso de `TIMESTAMP` e `CURRENT_TIMESTAMP`
+- constraints (`NOT NULL`, `CHECK`, `UNIQUE`)
+- integridade referencial com `FOREIGN KEY`
+- criação de índices para melhorar performance das consultas
+
+### Próximos passos planejados
+
+- inserção de dados de teste
+- construção de consultas SQL para simular endpoints de uma API
+- criação de índices e análise de plano de execução (`EXPLAIN`)
+- evolução do projeto para utilização em uma **API backend**
